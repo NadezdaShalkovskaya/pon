@@ -126,3 +126,124 @@ li{
     line-height: 34px;
     font-family: "stolzl_bold";
 }
+
+
+
+
+
+
+\\Илья<Б>
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width:1296px;
+    height: 167px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top{
+    width: 100%;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 367px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.right div{
+    display: flex;
+    justify-content: space-between;
+    width: 162px;
+    height: 21px;
+}
+.bottom{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 346px;
+    display: flex;
+    justify-content: space-between;
+}
+.Links{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.content{
+    display: flex;
+    width: 125px;
+    height: 30px;
+}
+.content div{
+    display: flex;
+
+}
+.input{
+    width:596px;
+    height:41px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid grey;
+}
+.katalog{
+    width: 110px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: #0063b0;
+    border:none;
+}
+.search{
+    width: 40px;
+    height: 43px;
+    background-color: #84C0EA;
+    border: none;
+    border-radius:0px 10px 10px 0px;
+}
+.search_container{
+    display: flex;
+    width:636px;
+    height:41px;
+}
+.container{
+    width: 1296px;
+    height: 500px;
+    background:linear-gradient(180deg,#AAADB2 0%,#C8C9CB 100%);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.right_container{
+    width: 556px;
+    height: 500px;
+    background:url(slider__img.png);
+}
+.left_container{
+    width: 429px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+h1{
+    width: 350px;
+    font-family: "stolzl_light.otf";
+}
+
+li{
+    font-size: 16px;
+    line-height: 34px;
+    font-family: "stolzl_light.otf";
+}
